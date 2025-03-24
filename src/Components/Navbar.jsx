@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import arclogo from "../Images/arclogo.png"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ export default function Navbar() {
         transition={{ duration: 0.5 }}
         className="text-3xl font-extrabold px-9 text-pink-600"
       >
-        ARC<span className="text-black p-3">Sri Lanka</span>
+       <img src={arclogo} className="w-24 h-24 m-4" alt="" />
       </motion.div>
 
       {/* Desktop Links */}

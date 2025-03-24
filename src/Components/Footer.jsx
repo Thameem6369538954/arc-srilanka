@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaInstagram, FaXTwitter, FaPinterestP } from 'react-icons/fa6';
+import arclogo from "../Images/arclogo.png"
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
         {/* Logo & Address */}
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
           <div className="mb-4">
-            <h2 className="text-2xl font-semibold">ARC fertility</h2>
+            <img src={arclogo} className='w-27 h-27' alt="" />
           </div>
           <p>SW 10th Ave 1206,Sri Lanka</p>
           <p>Mon – Fri: 8:30 am – 5:00 pm,</p>
