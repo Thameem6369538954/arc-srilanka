@@ -1,0 +1,11 @@
+
+@font-face {
+  font-family: "Heading";
+  src: url("../public/Fonts/Henotica.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "nrl";
+  src: url("../public/Fonts/Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
+}
