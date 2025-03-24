@@ -26,7 +26,7 @@ export default function AboutSection() {
           A private <em className="italic">fertility and IVF clinic</em> for women and couples
         </h2>
         <p className="text-[#555] mb-8 leading-relaxed">
-          Our leading fertility clinic in London, world-class fertility treatments, and expert care are available to all. Because no matter where you are on your journey to parenthood or how complex your medical needs are, our tireless pursuit of fertility success means we always have treatment options available.
+          Our leading fertility Hospital in Sri Lanka, world-class fertility treatments, and expert care are available to all. Because no matter where you are on your journey to parenthood or how complex your medical needs are, our tireless pursuit of fertility success means we always have treatment options available.
         </p>
         <button className="px-6 py-3 bg-[#d0e27b] hover:bg-[#bcd35f] text-[#333] font-bold rounded-full transition">
           Find out more
