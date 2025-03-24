@@ -12,12 +12,12 @@ const Footer = () => {
           <div className="mb-4">
             <img src={arclogo} className='w-27 h-27' alt="" />
           </div>
-          <p>SW 10th Ave 1206,Sri Lanka</p>
+          <p>SW 10th Ave 1206 , Sri Lanka</p>
           <p>Mon – Fri: 8:30 am – 5:00 pm,</p>
           <p>Sat – Sun: Closed</p>
           <div className="mt-4">
             <p className="flex items-center gap-2"><span>📞</span>1-800-123-1234</p>
-            <p>example@arc.com</p>
+            {/* <p>example@arc.com</p> */}
           </div>
         </motion.div>
 
@@ -77,7 +77,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="mt-10 border-t pt-4 flex flex-col md:flex-row items-center justify-between text-sm text-[#555]">
         <p>This is a sample website</p>
-        <p>cmsmasters © 2025 - All Rights Reserved</p>
+        <p>arcfertility © 2025 - All Rights Reserved</p>
       </div>
     </footer>
   );

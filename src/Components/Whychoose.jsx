@@ -19,7 +19,7 @@ export default function WhyChoose() {
         viewport={{ once: true }}
       >
         <h2 className="text-3xl md:text-4xl xl:text-5xl font-serif font-semibold mb-8 leading-snug">
-          Why choose <em className="italic">Femina Health</em> fertility center
+          Why choose <em className="italic">ARC</em> fertility center
         </h2>
 
         <ul className="space-y-5 text-[#555]">
